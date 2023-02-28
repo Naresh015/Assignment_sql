@@ -1,0 +1,23 @@
+-- create database getEmployeeDetails
+-- create table GetDetails(
+-- 	Emp_id int primary key not null,
+-- 	Emp_name varchar(30) not null,
+-- 	Job_name varchar(30) not null,
+-- 	Manager_id int not null,
+-- 	Hire_date varchar(30) not null,
+-- 	Salary int not null,
+-- 	Dep_id int not null
+-- );
+-- insert into GetDetails values(68319,"Mr. Singh"," PRESIDENT",68319,"1991-11-18",6000,1001);
+-- insert into GetDetails values(68318,"Mr. Singh"," PRESIDENT",68318,"1991-11-19",12000,1009);
+-- insert into GetDetails values(68320,"Dinesh"," Developer",68320,"1991-11-26",8000,1002);
+-- insert into GetDetails values(68400,"Raj","Software Engineer",683400,"1998-11-18",16000,1110);
+-- insert into GetDetails values(68500,"Bapi"," Programmer",68500,"2000-11-18",20000,10012);
+-- insert into GetDetails values(68501,"Naresh","Maneger",68501,"2022-11-18",60000,10013);
+-- insert into GetDetails values(68502,"DP"," Assistant Maneger",68502,"2023-11-19",21000,10014);
+-- insert into GetDetails values(68503,"sp"," Developer",68503,"2020-11-26",18000,10020);
+-- insert into GetDetails values(68504,"Charan","Software Engineer",683504,"2019-11-18",16000,1101);
+-- insert into GetDetails values(68505,"Narayana"," Programmer",68505,"2016-11-18",20000,10019);
+-- select salary from getdetails;
+-- select distinct Job_name from getdetails;
+-- update  getdetails set salary=90000 where Emp_id=68400 ;
